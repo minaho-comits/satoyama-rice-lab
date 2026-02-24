@@ -20,4 +20,9 @@ body { line-height: 1.7; }
 .p-cards { padding: 24px 0; }
 .p-cards .c-cards { margin-bottom: 16px; }
 .c-card { padding: 16px; border: 1px solid rgba(0, 0, 0, .1); border-radius: 12px; }
-.c-btn { display: inline-blick; }
+.c-btn { text-decoration: none; }
+
+@media(max-width: 600px) {
+.p-hero #hero-cta { display: block; width: 100%; }
+.p-hero #hero-cta .wp-block-button.c-btn .wp-block-button__link { display: block; width: 100%; text-align: center;}
+}
