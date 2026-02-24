@@ -14,3 +14,9 @@
 
 /* session1: base spacing */
 body { line-height: 1.7; }
+
+/* session1: satiyama top */
+.p-hero { padding: 48px 0; }
+.p-cards { padding: 24px 0; }
+.c-card { padding: 16px; border: 1px solid rgba(0, 0, 0, .1); border-radius: 12px; }
+.c-btn { display: inline-blick; }
